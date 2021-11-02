@@ -6,14 +6,14 @@ body {
     padding: 5px;
     margin: 0;
 }
-h2{
+h2 {
     font-size: 20px;
 }
 p{
 text-align: justify;
 font-size: 18px;
 }
-.header_container{
+.header_container {
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
@@ -97,7 +97,7 @@ font-size: 18px;
     text-align: center;
     color: rgb(45, 3, 230);
 }
-@media screen and (max_width: 1024px) {
+@media screen and (max-width: 1024px) {
     .item_art {
         -webkit-flex-direction: column;
         flex-direction: column;
