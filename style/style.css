@@ -12,3 +12,30 @@ h2 {
 p {
     text-align: justify;
 }
+header, footer {
+    width: 100%;
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    color:darkblue;
+}
+header img {
+    float: left;
+}
+header h1 {
+    font-size: 28px;
+
+}
+header:after {
+content: "";
+display: block;
+clear: both;
+}
+section {
+    background-color: #cccccc;
+}
+section:after{
+content: "";
+display: block;
+clear: both;
+}
